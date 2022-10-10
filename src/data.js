@@ -12,8 +12,9 @@ export const projectsValue = [
             projectUrl:"https://happy-pet.vercel.app/",
             githubUrl:"https://github.com/eduardoAns/tiendaHappyPet",
             listContent:[
-                "Front-End: NextJs, Material UI, Axios, Context, Typescript, SSR, SSG",
-                "Back-End: SpringBoot, JPA, Api-Rest, MySQL, JWT, Maven, Lombok, Intellij",
+                "Estado: Finalizado V1.0",
+                "Front-End: React,NextJs, Material UI, Axios, Context, Typescript, SSR, SSG",
+                "Back-End: Java,SpringBoot, JPA, Api-Rest, MySQL, JWT, Maven, Lombok, Intellij",
                 "Despliegue: Heroku, Vercel",
                 "Credenciales: admin@prueba.com:123456"
             ]
@@ -30,8 +31,9 @@ export const projectsValue = [
             projectUrl:"https://eduardoblog.vercel.app/",
             githubUrl:"https://github.com/eduardoAns/Eduardo-blog",
             listContent:[
-                "Front-End: NextJs, Material UI, Axios, Context, Typescript, SSR, SSG", 
-                "Back-End: SpringBoot, JPA, Api-Rest, MySQL, JWT, Maven, Lombok, Intellij",
+                "Estado: En desarrollo",
+                "Front-End: React, NextJs, Material UI, Axios, Context, Typescript, SSR, SSG", 
+                "Back-End: Java, SpringBoot, JPA, Api-Rest, MySQL, JWT, Maven, Lombok, Intellij",
                 "Despliegue: Railway, Vercel, RDS AWS",
             ]
         }
@@ -47,6 +49,7 @@ export const projectsValue = [
             projectUrl:"https://heuristic-lewin-c6752f.netlify.app/",
             githubUrl:"https://github.com/eduardoAns/Journal-project",
             listContent:[
+                "Estado: Finalizado V1.0",
                 "Front-End: React, Css, Axios, Redux", 
                 "Back-End: Firebase, Firestore, Authentication",
                 "Despliegue: Netlify",
