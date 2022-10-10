@@ -21,7 +21,7 @@ export const projectsValue = [
     },
     {
         name: "Blog Eduardo",
-        imageUrl:"realState.png",
+        imageUrl:"blog-eduardo.png",
         projectUrl:"https://eduardoblog.vercel.app/",
         technologies:[DiReact, DiJava, DiMysql],
         modal:{
