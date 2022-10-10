@@ -1,6 +1,5 @@
 import { VStack } from "@chakra-ui/layout";
 import React from "react";
-import BgAnimation from './components/BackgrooundAnimation/BackgroundAnimation';
 import {Helmet} from "react-helmet";
 import Header from "./components/Header";
 import Profile from "./components/Profile/Profile";

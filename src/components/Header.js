@@ -23,14 +23,14 @@ const Header = () => {
           icon={<FaLinkedin />}
           isRound="true"
           onClick={() =>
-            window.open("https://www.google.com")
+            window.open("https://linkedin.com/in/eduardo-ansa-b862a9217")
           }
         ></IconButton>
         <IconButton
           ml={2}
           icon={<FaGithub />}
           isRound="true"
-          onClick={() => window.open("https://www.google.com")}
+          onClick={() => window.open("https://github.com/eduardoAns")}
         ></IconButton>
         <IconButton
           ml={8}

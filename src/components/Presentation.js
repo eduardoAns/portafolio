@@ -1,6 +1,7 @@
 import { useColorMode } from "@chakra-ui/color-mode";
 import { Image } from "@chakra-ui/image";
-import { Circle, Stack, Flex, Box, Text } from "@chakra-ui/layout";
+import { Circle, Stack, Flex, Box, Text} from "@chakra-ui/layout";
+import { Button} from '@chakra-ui/react';
 import { useMediaQuery } from "@chakra-ui/media-query";
 import React from "react";
 
@@ -42,16 +43,18 @@ const Presentation = () => {
           <Text fontSize="4xl" color={isDark ? "gray.200" : "gray.500"}>
             Analista programador y desarrollador web
           </Text>
-          {/* <Flex justifyContent={{base:"center", md:"initial"}} >
+          <Text fontSize="xl" color={isDark ? "gray.200" : "gray.500"} mt={3}>
+            Contacto: Eduardoansa095@gmail.com
+          </Text>
+          <Flex justifyContent={{base:"center", md:"initial"}} >
             <a href="Curriculum_Eduardo_Ansa.pdf" target="_blank" rel="noopener noreferrer" download="Curriculum_Eduardo_Ansa.pdf"> 
               <Button mt={8} colorScheme="blue" >
                 descargar CV
               </Button>
             </a>
-          </Flex> */}
+          </Flex> 
           
           
-    
         </Box>
         <Image
           alignSelf="center"

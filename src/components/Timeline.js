@@ -1,5 +1,5 @@
 import { Timeline, Event } from 'react-trivial-timeline';
-import { Flex, Text } from "@chakra-ui/layout";
+import { Text } from "@chakra-ui/layout";
 
 
 export function TimelineMe() {
