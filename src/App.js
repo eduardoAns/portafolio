@@ -14,6 +14,10 @@ const App = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Eduardo Ansa</title>
+        <meta name="og:description" content={ "Portafolio para mostrar mis proyectos." } />
+        <meta name="og:image" content={ "https://i.picsum.photos/id/824/800/1200.jpg?hmac=oL7ccvkyMJ2uRT6IRUVsyWtZslXS_cRMSYjDr8GMGc4" } />
+        
+
       </Helmet>
       <Header />
       <Presentation />
