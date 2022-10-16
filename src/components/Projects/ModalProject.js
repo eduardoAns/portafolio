@@ -47,10 +47,18 @@ import {
   
             <ModalFooter>
               <Button variant='outline' onClick={() => window.open(`${data.projectUrl}`)}>Web</Button>
-
-              <Button variant='outline' onClick={() => window.open(`${data.githubUrl}`)}>GitHub</Button>         
-
               
+
+              {
+                data.githubBackUrl 
+                ? 
+                  <>
+                    <Button variant='outline' onClick={() => window.open(`${data.githubFrontUrl}`)}>GitHub Frontend</Button> 
+                    <Button variant='outline' onClick={() => window.open(`${data.githubBackUrl}`)}>GitHub Backend</Button>
+                  </>
+                :
+                  <Button variant='outline' onClick={() => window.open(`${data.githubFrontUrl}`)}>GitHub</Button>
+              }                      
             </ModalFooter>
           </ModalContent>
         </Modal>

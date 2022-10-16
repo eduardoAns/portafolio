@@ -46,13 +46,7 @@ const Presentation = () => {
           <Text fontSize="xl" color={isDark ? "gray.200" : "gray.500"} mt={3}>
             Contacto: Eduardoansa095@gmail.com
           </Text>
-          <Flex justifyContent={{base:"center", md:"initial"}} >
-            <a href="Curriculum_Eduardo_Ansa.pdf" target="_blank" rel="noopener noreferrer" download="Curriculum_Eduardo_Ansa.pdf"> 
-              <Button mt={8} colorScheme="blue" >
-                descargar CV
-              </Button>
-            </a>
-          </Flex> 
+          
           
           
         </Box>
