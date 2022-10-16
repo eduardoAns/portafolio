@@ -37,7 +37,7 @@ export const projectsValue = [
                 "Back-End: Java,SpringBoot, JPA, Api-Rest, MySQL, JWT, Maven, Lombok, Intellij",
                 "Despliegue: Heroku, Vercel",
                 "Credenciales: admin@prueba.com:123456",
-                "proyecto desarrollado junto a Rubén Quispe para proyecto final de curso"
+                "Desarrollado junto a Rubén Quispe para proyecto final de curso"
             ]
         }
     },
