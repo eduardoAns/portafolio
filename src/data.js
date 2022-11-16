@@ -35,6 +35,7 @@ export const projectsValue = [
                 "Front-End: React, NextJs, Material UI, Axios, Context, Typescript, SSR, SSG", 
                 "Back-End: Java, SpringBoot, JPA, Api-Rest, MySQL, JWT, Maven, Lombok, Intellij",
                 "Despliegue: Railway, Vercel, RDS AWS",
+                "Credenciales: usuario1carrasco@gmail.com:12345",
             ]
         }
     },

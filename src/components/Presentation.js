@@ -44,7 +44,7 @@ const Presentation = () => {
             Analista programador y desarrollador web
           </Text>
           <Text fontSize="xl" color={isDark ? "gray.200" : "gray.500"} mt={3}>
-            Contacto: Eduardoansa095@gmail.com
+            Contacto: eduardoansa095@gmail.com
           </Text>
           
           
