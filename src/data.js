@@ -1,6 +1,24 @@
-import { DiFirebase, DiJava, DiMysql, DiReact,  } from 'react-icons/di';
+import { DiCss3, DiFirebase, DiJava, DiMysql, DiReact,  } from 'react-icons/di';
 
 export const projectsValue = [
+    {
+        name:"Landing page dark theme",
+        imageUrl:"landing.jpg",
+        projectUrl:"https://lading-page-dark-theme.vercel.app/",
+        technologies:[DiReact, DiCss3],
+        modal:{
+            name: " Landing page dark theme",
+            content:" Landing Page creada para desafio junior de front-end mentor",
+            projectUrl:"https://lading-page-dark-theme.vercel.app/",
+            githubFrontUrl:"https://github.com/eduardoAns/lading-page-dark-theme.git",
+            githubBackUrl:"",
+            listContent:[
+                "Estado: Finalizado V1.0",
+                "Front-End: React, Css, Tailwind, Tsx", 
+                "Despliegue: Vercel",
+            ]
+        }
+    },
     {
         name: "Blog Eduardo",
         imageUrl:"blog-eduardo.png",
@@ -60,6 +78,6 @@ export const projectsValue = [
                 "Credenciales:nando@gmail.com:123456"    
             ]
         }
-    }
+    },
 ]
 
