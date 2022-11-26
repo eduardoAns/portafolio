@@ -4,7 +4,7 @@ export const projectsValue = [
     {
         name:"Manage Landing page",
         imageUrl:"landing-intermediate.jpg",
-        projectUrl:"https://lading-page-dark-theme.vercel.app/",
+        projectUrl:"https://manage-lading-page-alpha.vercel.app/",
         technologies:[DiReact, DiCss3],
         modal:{
             name: "Manage Landing page",
