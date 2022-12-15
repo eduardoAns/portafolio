@@ -26,14 +26,14 @@ export const projectsValue = [
         technologies:[DiReact, DiJava, DiMysql],
         modal:{
             name: "Blog Eduardo",
-            content:"Blog personal donde puedes el desarrollo de mis proyectos, estudios, etc.",
+            content:"Blog personal donde puedes ver el desarrollo de mis proyectos, estudios, etc. Ademas puedes dejar comentarios y crear un usuario para hacer publicaciones.",
             projectUrl:"https://eduardoblog.vercel.app/",
             githubFrontUrl:"https://github.com/eduardoAns/Eduardo-blog",
             githubBackUrl:"https://github.com/eduardoAns/blogBack.git",
             listContent:[
                 "Estado: En desarrollo",
-                "Front-End: React, NextJs, Material UI, Axios, Context, Typescript, SSR, SSG", 
-                "Back-End: Java, SpringBoot, JPA, Api-Rest, MySQL, JWT, Maven, Lombok, Intellij",
+                "Front-End: React, NextJs, Material UI, Context, Typescript, SSG", 
+                "Back-End: Java, SpringBoot, JPA, Api-Rest, MySQL, JWT",
                 "Despliegue: Railway, Vercel, RDS AWS",
                 "Credenciales: usuario1carrasco@gmail.com:12345",
             ]

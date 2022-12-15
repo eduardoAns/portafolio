@@ -1,13 +1,15 @@
 import { Timeline, Event } from 'react-trivial-timeline';
-import { Text } from "@chakra-ui/layout";
+import { Text, Box } from "@chakra-ui/layout";
 
 
 export function TimelineMe() {
     return ( 
-            <Timeline lineColor={"red"}>
-                <Text fontWeight="bold" fontSize="4xl" pb="8" width="full" textAlign="center">
+            <Timeline >
+                
+                <Text fontWeight="bold" fontSize="3xl" pb="8" width="full" >
                     Estudios
                 </Text>
+                <Box pl={{base:'2rem', lg:'4rem'}} >
                 <Event interval="---Marzo/2020---" title="Comenzando carrera de analista programador" >
                     <Text  fontWeight="black">
                         Aprendiendo Logica, Java, POO
@@ -33,7 +35,7 @@ export function TimelineMe() {
                         Disponible para trabajar como desarrollador Web Front-end, Back-end o FullStack
                     </Text>
                 </Event>
-            
+                </Box>
             </Timeline>
     )
 }
