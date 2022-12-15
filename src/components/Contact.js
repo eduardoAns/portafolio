@@ -104,7 +104,7 @@ const Contact = () => {
           {!isError.name ? (
             null
           ) : (
-            <FormErrorMessage>Nombre is required.</FormErrorMessage>
+            <FormErrorMessage>El nombre es requerido.</FormErrorMessage>
           )}
         </FormControl>
 
@@ -114,7 +114,7 @@ const Contact = () => {
           {!isError.email? (
             null
           ) : (
-            <FormErrorMessage>Email is required.</FormErrorMessage>
+            <FormErrorMessage>el email es requerido.</FormErrorMessage>
           )}
         </FormControl>
         <FormLabel>Contenido</FormLabel>
@@ -124,7 +124,7 @@ const Contact = () => {
           onFocus={handleClick}
           isInvalid={isError.comments}
           name="comments"
-          placeholder='Here is a sample placeholder'
+          placeholder='deja tu mensaje'
           size='md'
           onChange={handleChange}
         />

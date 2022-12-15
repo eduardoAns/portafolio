@@ -13,7 +13,7 @@ const Tecnologies = () => {
       <Box alignSelf="center" width={"100%"} py="16" >
         <Flex width="100%" justifyContent={"center"}>
             <Text fontWeight="bold" fontSize="4xl" mb={16} pb={2} borderTop="1px" borderBottom="1px" borderColor={'purple.800'} px={6}>
-              Tecnologias principales
+              Tecnologias
             </Text>
         </Flex> 
         <Text fontWeight="bold" fontSize="2xl" ml={{base:0,md:4}}>

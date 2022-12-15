@@ -40,7 +40,7 @@ const Presentation = () => {
             bgGradient="linear(to-r, cyan.400, blue.500, purple.600)"
             bgClip="text"
           >
-            Eduardo Ansa C
+            Eduardo Ansa 
           </Text>
           <Text fontSize="4xl" fontWeight="semibold" mb={3}>
             Analista programador y desarrollador web
