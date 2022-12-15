@@ -91,14 +91,14 @@ const Profile = () => {
                     </TabPanels>
                 </Tabs>
             </Box>
-            <Box width={{base:'100%',lg:"50%"}} display="flex" flexDirection={"column"} alignItems="center">
+            <Box width={{base:'100%',lg:"50%"}} display="flex" flexDirection={"column"} alignItems={{base:"center", lg:"end"}}  >
                 
                 <Flex width="100%" justifyContent={"center"}>
-                    <Text fontWeight="bold" fontSize="4xl" mb={16} mt={{base:12, lg:0}} pb={2} borderTop="1px" borderBottom="1px" borderColor={'purple.800'} px={6}>
+                    <Text fontWeight="bold" fontSize="4xl" mb={{base:16, lg:28}} mt={{base:12, lg:0}} pb={2} borderTop="1px" borderBottom="1px" borderColor={'purple.800'} px={6}>
                         Contacto
                     </Text>
                 </Flex> 
-                <Accordion allowToggle width={"90%"}>
+                <Accordion allowToggle width={"90%"} display="flex" flexDirection={"column"} justifyContent="end">
                     <AccordionItem>
                         <h2>
                         <AccordionButton>
