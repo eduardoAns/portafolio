@@ -2,6 +2,26 @@ import { DiCss3, DiFirebase, DiJava, DiMysql, DiReact,  } from 'react-icons/di';
 
 export const projectsValue = [
     {
+        name: "Blog Eduardo",
+        imageUrl:"blog-eduardo.png",
+        projectUrl:"https://eduardoblog.vercel.app/",
+        technologies:[DiReact, DiJava, DiMysql],
+        modal:{
+            name: "Blog Eduardo",
+            content:"Blog personal donde puedes ver el desarrollo de mis proyectos, estudios, etc. Ademas puedes dejar comentarios y crear un usuario para hacer publicaciones. Al crear un usuario podras hacer publicaciones y tener un perfil.",
+            projectUrl:"https://eduardoblog.vercel.app/",
+            githubFrontUrl:"https://github.com/eduardoAns/Eduardo-blog",
+            githubBackUrl:"https://github.com/eduardoAns/blogBack.git",
+            listContent:[
+                "Estado: En desarrollo",
+                "Front-End: React, NextJs, Material UI, Context, Typescript, SSG", 
+                "Back-End: Java, SpringBoot, JPA, Api-Rest, MySQL, JWT",
+                "Despliegue: Railway, Vercel, RDS AWS",
+                "Credenciales: usuario1carrasco@gmail.com:12345",
+            ]
+        }
+    },
+    {
         name:"Manage Landing page",
         imageUrl:"landing-intermediate.jpg",
         projectUrl:"https://manage-lading-page-alpha.vercel.app/",
@@ -20,26 +40,6 @@ export const projectsValue = [
         }
     },
     {
-        name: "Blog Eduardo",
-        imageUrl:"blog-eduardo.png",
-        projectUrl:"https://eduardoblog.vercel.app/",
-        technologies:[DiReact, DiJava, DiMysql],
-        modal:{
-            name: "Blog Eduardo",
-            content:"Blog personal donde puedes ver el desarrollo de mis proyectos, estudios, etc. Ademas puedes dejar comentarios y crear un usuario para hacer publicaciones.",
-            projectUrl:"https://eduardoblog.vercel.app/",
-            githubFrontUrl:"https://github.com/eduardoAns/Eduardo-blog",
-            githubBackUrl:"https://github.com/eduardoAns/blogBack.git",
-            listContent:[
-                "Estado: En desarrollo",
-                "Front-End: React, NextJs, Material UI, Context, Typescript, SSG", 
-                "Back-End: Java, SpringBoot, JPA, Api-Rest, MySQL, JWT",
-                "Despliegue: Railway, Vercel, RDS AWS",
-                "Credenciales: usuario1carrasco@gmail.com:12345",
-            ]
-        }
-    },
-    {
         name: "Tienda online HappyPet",
         imageUrl:"happyPet.png",
         projectUrl:"https://happy-pet.vercel.app/",
@@ -51,7 +51,7 @@ export const projectsValue = [
             githubFrontUrl:"https://github.com/eduardoAns/tiendaHappyPet",
             githubBackUrl:"https://github.com/ruben0032/api-HappyPet",
             listContent:[
-                "Estado: Finalizado V1.0",
+                "Estado: Finalizado V1.0, buscando donde servir la API",
                 "Front-End: React,NextJs, Material UI, Axios, Context, Typescript, SSR, SSG",
                 "Back-End: Java,SpringBoot, JPA, Api-Rest, MySQL, JWT, Maven, Lombok, Intellij",
                 "Despliegue: Heroku, Vercel",
